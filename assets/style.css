@@ -1,0 +1,111 @@
+html{
+    background-color: #CCCCFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav{
+    background-color: #ffa1c9;
+    border-bottom: #ffc970 solid 6px;
+}
+
+nav ul{
+    text-align: end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+nav li{
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bolder;
+    color: white;
+}
+
+nav li:hover{
+    background-color: #ffc9d6;
+    cursor: pointer;
+    color: black;
+}
+
+header{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.img-caption{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.contact-form{
+    background-color: #d68eff;
+    border-top: #ffc970 solid 6px;
+    padding: 20px 0px;
+}
+
+.contact-form h2{
+    text-align: center;
+}
+
+.info-box{
+    border: #ffc970 solid;
+    border-radius: 10px;
+    background-color: #ffc9d6;
+    padding: 10px 40px;
+    margin: 15px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    min-width: 250px;
+}
+
+.contact-btn{
+    display: block;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 25px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-btn:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+footer{
+    background-color: #ffa1c9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
